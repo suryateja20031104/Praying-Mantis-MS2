@@ -1,0 +1,12 @@
+POST http://localhost:3001/userDetailsAdd/
+Content-Type: application/json
+
+{
+    "username":"surya",
+    "email":"surya@gmail.com",
+    "age":25,
+    "location":"visakhapatnam"
+}
+
+###
+GET http://localhost:3001/userDetailsGet/
